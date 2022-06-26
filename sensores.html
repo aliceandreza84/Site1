@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>Novas Tecnologias</title>
+   <link rel="stylesheet" href="styles.css">
+  
+ </head>
+
+    <body>
+      <header>
+        <center><p class="solid"> <h1 id= "TituloPrincipal">Novas Tecnologias</h1> </p></center>
+        <nav>
+              <ul id="ulinicial">
+				<li id="liinicial"><a href="index.html"> Página Inicial</a></li>
+				<li id="liinicial"><a href="industrial.html"> Evolução Industrial</a></li>
+				<li id="liinicial"><a href="arduino.html"> Arduino</a></li>
+              </ul>
+        </nav>
+      
+      </header>
+      <section>
+        <center><h2>Display LCD</h2></center>  
+			A tecnologia Liquid Crystal Display (Display de Cristal Líquido) é composta por um líquido polarizador de luz comprimido, controlado por via elétrica, dentro de lâminas 
+			transparentes. Cada uma delas possui pontos de eletricidade que fazem o campo elétrico se unir ao líquido no interior.
+            <p>Os displays, como dá para ver, são formados de vários pontinhos. Cada pontinho pode ficar claro ou escuro, dependendo da polarização da eletricidade de cada um. 
+			Sob as placas transparentes, existem uma matriz invisível de conexões que controlam todos esses pontinhos. Quem faz isso, são os chips controladores que ficam por trás do display.
+			No datasheet de cada chip controlador é possível ver a conexão correta para que você possa gerar seus próprios símbolos, existe uma memória RAM interna.
+			<p>
+			<center> Pinagem do LCD</center> 
+			<center> <img src="lcd1.jpg" width=448px height=251px></img> </center>
+			<center> Parte de trás do display já conectada</center>
+			<center> <img src="lcd2.jpg" width=448px height=251px></img> </center>
+      </section>
+
+      <section>
+        <center><h2>Módulo Bluethooth</h2></center>  
+			O Módulo Bluetooth é um dispositivo eletrônico que possibilita transmitir e receber dados através de comunicação sem fio. Este módulo pode ser utilizado para criação de comunicação 
+			wireless para troca de informações entre dispositivos. Na prática, é possível enviar dados de sensores conectados ao Arduino diretamente para smartphones, por exemplo.
+			<p>
+            <center> <img src="modulo1.png" width=448px height=251px></img> </center>
+      </section>
+
+      <section>
+        <center><h2>Módulo wifi Esp²66</h2></center>  
+			O módulo Wifi ESP8266 NodeMCU é uma placa de desenvolvimento que combina o chip ESP8266, uma interface sub-serial e um regulador de tensão 3.3V. A programação pode ser feita usando 
+			LUA ou a IDE do Arduino, utilizando a comunicação via cabo micro-usb. O módulo WiFi ESP8266 é um SOC com protocolo TCP/IP integrado que consegue dar a qualquer microcontrolador 
+			acesso a sua rede WiFi. O ESP8266 é capaz tanto de hospedar uma aplicação quanto descarregar todas as funções de redes WiFi a partir de outro processador de aplicação. 
+			<p>Cada módulo ESP8266 vai pré-programado com um comando AT setando seu firmware, significando que você pode simplesmente ligar este módulo ao seu Arduino e ele vai funcionar como 
+			qualquer outro shield WiFi funcionando. Este módulo tem um ótimo custo x benefício e possui uma comunidade de usuários enorme, e continuamente em crescimento. Esse módulo possui um 
+			processador na placa poderoso o suficiente para ser capaz de integração com sensores e outras aplicações específicas usando seus GPIOs, com necessidade de pouco desenvolvimento.
+			<p>Por ser um chip bastante completo, ele requer pouquíssimos componentes na placa, o que torna a placa muito pequena ocupando pouco espaço em seu projeto. 
+			O ESP8266 suporta APSD para aplicações VOIP e interface com bluetooth pré-existente, ele possui RF auto-calibrável permitindo que ele trabalhe em todas as condições de operação,
+			e não requer nenhuma parte RF externa.
+			<p>
+            <center> <img src="modulo2.jpg" width=448px height=251px></img> </center>
+             
+      </section>
+
+      
+      <section>
+        <center><h2>Sensor Infravermelho Sharp</h2></center>  
+             O Sensor Sharp GP2Y0A02YK0F é um sensor infravermelho de longo alcance, utilizado para fazer a medição de diferentes distâncias, já que é composto por um PSD 
+			 (Detector de Posição Sensível), um IRED (Emissor Infravermelho) e um circuito para processamento do sinal. Diferentemente de outros modelos, o Sensor Infravermelho Sharp
+			 GP2Y0A02YK0F não é afetado facilmente pela temperatura do ambiente ou mesmo pela refletividade do objeto, adotando o método de triangulação, o que vem a confirmar sua precisão 
+			 superior.
+			 <p>O sensor Sharp GP2Y0A02YK0F pode ser considerado um sensor de proximidade, já que vai gerar uma tensão na saída, a qual vai mudar de acordo com a distância de decretação. 
+			 O Sensor Infravermelho Sharp GP2Y0A02YK0F oferece em suas saídas um valor de tensão analógico, o qual pode ser facilmente lido por um microcontrolador, entre eles, o Arduino, 
+			 mostra-se uma excelente alternativa a sensores infravermelhos com menor alcance e a sensores ultrassônicos.
+			 <center> <img src="sensor.webp" width=448px height=251px></img> </center>
+      </section>
+
+      <section>
+        <center><h2>Módulo Display com Chaves</h2></center>  
+			É o componente mais indicado para apresentação simples de dados como números e letras. Com ele é possível formar caracteres de 0 a 9,hexadecimais de A a F e algumas letras do 
+			alfabeto latino. O display é formado pelo arranjo de leds (diodos emissores de luz)em um invólucro, acessíveis individualmente, que formam os segmentos que podem ser controlados 
+			de modo a formar o caráter desejado.
+			<p>
+			<strong>Tipos de display de 7 segmentos</strong>
+			<p>
+            Pode ser classificado em dois tipos, dependendo da forma como são conectados eles podem ser de catodo comum ou anodo comum.
+			<p>
+			<strong>Anodo Comum</strong>
+			<p>
+			Todos os segmentos estão interligados internamente e para o display funcionar este terminal comum deverá ser ligado em VCC, enquanto o segmento para ligar precisa de estar ligado 
+			no GND. 
+			<p>
+			<strong>Catodo Comum</strong>
+			<p>
+			É o contrário do ano do comum, neste o terminal deverá ser ligado ao GND para ligar o segmento é necessário aplicar VCC ao terminal.
+			<p>
+			<strong>Sobre as correntes</strong>
+			<p>
+			Como os segmentos são leds, então precisamos delimitar a corrente, para isso devemos usar uma resistência em cada segmento. A corrente a ser utilizada depende do brilho que 
+			queremos do display, normalmente utiliza-se resistências entre 220 e 560 ohms para uma fonte de 5 volts, o que equivale a uma corrente entre 9mA e 20mA. Não devemos usar valores de 
+			resistência muito baixo, pois estamos a reduzir a vida útil do display, inclusive podemos queimar o segmento.
+      </section>
+
+<br><br><br><br>
+
+<footer>
+  <center> <br> 24 de Junho de 2022<br><br>
+    Senai Vespasiano-MG<br><br>
+  </center>
+ <ul id="ulinicial">
+    <li id="lifooter">Alice Andreza</li>
+    <li id="lifooter">Luana Botaro</li>
+    <li id="lifooter">Samuel Henrique</li>
+ </ul>
+</footer>
+    
+    </body>
+</html>

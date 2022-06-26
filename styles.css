@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;   
+}
+
+body {
+    background-color: #202C51;
+    margin: 0px;
+}
+
+section {
+    margin: 0px 350px;
+    color: #ffff;
+    font-size: 23px;
+    font-family:'League Gothic', sans-serif;
+}
+#TituloPrincipal{
+    color:black;
+    font-size:2cm;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+img{
+    border: 15px solid #327ba5;
+    margin: 10px 10px;
+}
+h2{
+    color:#ffff;
+}
+
+header{
+    background: #327ba5;
+    width: auto;
+    padding: 10px;
+    margin: 0px;
+    border-style: solid;
+    border-width: 15px;
+    border-color:#202C51;
+}
+
+
+a {
+text-decoration: none;
+color: aliceblue;
+
+}
+
+#ulinicial{
+    list-style: none;
+	display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+    
+}
+
+
+#liinicial {
+    background-color: #111ed1 ;
+    padding: 10px;
+    color: aliceblue;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    border: solid;
+    margin: 0px 40px;
+    font-size: 22px;
+    border-radius: 10px;
+	}
+
+nav {
+	display: flex;
+	justify-content: space-evenly;
+}    
+   
+#header1{
+        background: #be735c;
+        width: auto;
+        padding: 10px;
+        margin: 250px 0px;
+        border-style: solid;
+        border-width: 23px;
+        border-color: #202C51 ;
+        animation: rubi 2s ease infinite alternate;
+}
+
+@keyframes rubi {
+    0% {
+        background-color: #1388a5;}
+
+    25% {
+        background-color: #327ba5;}
+    
+    50% {
+        background-color: #1a54d1;}
+
+    100% {
+        background-color: #1a4db9;}
+}
+
+footer {
+    background-color: #111ed1;
+    color: aliceblue;
+    padding: 0px;
+    text-align: center;
+    font-size: 23px;
+    border-style: solid;
+    border-width: 23px;
+    border-color: #327ba5;
+}
+
+
+#lifooter {
+    padding: 10px;
+    color: aliceblue;
+    text-align: center;
+    margin: 20px 35x;
+    font-size: 22px;
+}
+
+#ulrobotica {
+    justify-content: space-evenly;
+}
+
+#lirobotica {
+    color: aliceblue;
+    margin: 0px 40px;
+    font-size: 22px;
+}
+
+
+
